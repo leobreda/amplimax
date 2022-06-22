@@ -1,0 +1,14 @@
+{
+  "name": "amplimax",
+  "version": "1.0.0",
+  "description": "Envio de sms utilizando modem 4g Amplimax da Elsys",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.6",
+    "querystring": "^0.2.1"
+  }
+}
