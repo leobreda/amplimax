@@ -4,7 +4,7 @@ Envio e recebimento de mensagens SMS com NodeJS, utilizando um roteador 4g Elsys
 
 Hoje, o próprio roteador disponibiliza uma funcionalidade de envio e recebimento de SMS, porém consiste num processo manual, podendo ser automatizado para a sua necessidade. Como a interface administrativa do roteador é via browser, é possível realizar requisições restfull diretamente na API de envio e recebimento de SMS.
 
-Você poderá utilizar o algoritmo para ser utilizado para a confirmaaçãoo do cadastro do usuário, em cenários que precisam de uma validação do número de telefone celular, ou até mesmo:
+Você poderá utilizar o algoritmo para ser utilizado para a confirmação do cadastro do usuário, em cenários que precisam de uma validação do número de telefone celular, ou até mesmo:
 
 > "informe o codigo 2345 para continuar o cadastro"
 
