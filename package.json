@@ -1,14 +1,28 @@
 {
-  "name": "amplimax",
+  "name": "read-sms",
+  "description": "Envio e recebimento de sms utilizando modem 4g Amplimax da Elsys",
   "version": "1.0.0",
-  "description": "Envio de sms utilizando modem 4g Amplimax da Elsys",
-  "main": "index.js",
   "type": "module",
-  "scripts": {},
-  "author": "",
-  "license": "ISC",
+  "main": "read-sms.js",
   "dependencies": {
+    "crypto-js": "^4.1.1",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
     "node-fetch": "^3.2.6",
-    "querystring": "^0.2.1"
-  }
+    "querystring": "^0.2.1",
+    "readline-sync": "^1.4.10"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "author": "Leonardo Breda",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leobreda/amplimax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leobreda/amplimax/issues"
+  },
+  "homepage": "https://github.com/leobreda/amplimax#readme"
 }
